@@ -1,0 +1,6 @@
+@import "colori";
+@each $key, $value in $btnColorValues {
+    .btn-#{$key} {
+        background-color: $value;
+    }
+}

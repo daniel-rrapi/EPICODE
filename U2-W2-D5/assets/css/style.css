@@ -1,0 +1,56 @@
+.bgMainColor {
+    background-color: #1b1b1b;
+}
+body {
+    color: white
+}
+footer {
+    color: #7f7f7f
+}
+.fs-desktop {
+    font-size: ;
+}
+.btFooter {
+    margin-top: 200px;
+}
+.maturity {
+    background-color: #363636;
+}
+@media screen and (min-width:100px) {
+    .paddingContainer {
+        padding-inline: 20px;
+
+    }
+}
+@media screen and (min-width:700px){
+    .paddingContainer {
+        padding-inline: 100px;
+    }
+}
+@media screen and (min-width:900px){
+    .paddingContainer {
+        padding-inline: 200px;
+    }
+}
+@media screen and (min-width:1600px){
+    .paddingContainer {
+        padding-inline: 250px;
+    }
+}
+@media screen and (min-width:1800px){
+    .paddingContainer {
+        padding-inline: 700px;
+    }
+}
+.navbar-toggler {
+    background-color: #7f7f7f;
+}
+footer i {
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+#nameInput {
+    background-color: #363636;
+    color: white;
+    border: transparent;
+}

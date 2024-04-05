@@ -1,0 +1,20 @@
+.img-banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 20%; /* Regola la larghezza della sfumatura */
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgb(30, 33, 41)
+  );
+  pointer-events: none;
+}
+.img-banner {
+  position: relative;
+}
+h1 {
+  color: #00acc1;
+}
